@@ -4,7 +4,7 @@
 
 ###### **1- Project Architecture** 
 
-![](/home/mohamed/playGround/urlShortner/assets/system_Arch.png)
+![](/assets/system_Arch.png)
 
 **As we can see in figure-1 we have a flask server up and running to serve 4 main endpoints **
 
@@ -41,7 +41,7 @@
 
    Now we can see our app is up and running on link : [ http://localhost:3000/]()
 
-![](/home/mohamed/playGround/urlShortner/assets/Screenshot from 2023-05-17 02-41-57.png)
+![](/assets/Screenshot from 2023-05-17 02-41-57.png)
 
 **As we can see we can Enter the URL we want to shorten using this form** 
 
