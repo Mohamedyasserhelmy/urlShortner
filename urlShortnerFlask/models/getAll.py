@@ -8,7 +8,7 @@ def get_all():
         "collection": "urlcollection",
         "database": "short_urls",
         "dataSource": "Cluster0",
-        "filter" : {}
+        "filter" : {},
     
     })
     headers = {

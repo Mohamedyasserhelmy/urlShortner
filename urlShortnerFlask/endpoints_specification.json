@@ -1,0 +1,124 @@
+{
+	"info": {
+		"_postman_id": "8c8d44cb-189e-409a-81a3-b3cf5aed5817",
+		"name": "urlShortner API EndPoints Documentation",
+		"description": "_**Specifying API endpoints for urlshortener app to make it easier to access and call each endpoint properly**_",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26760066",
+		"_collection_link": "https://universal-escape-489378.postman.co/workspace/6af64a7c-b79e-4a0d-8b8d-489e90ff64e0/collection/26760066-8c8d44cb-189e-409a-81a3-b3cf5aed5817?action=share&creator=26760066&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:5000/shortlinks",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/shortlinks",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"shortlinks"
+					]
+				},
+				"description": "``` json\n{\n    \"documents\": [\n        {\n            \"_id\": \"64623939c2e5e8a9d8b41761\",\n            \"android\": {\n                \"fallback\": \"https://developer.android.com/about?gclid=CjwKCAjw04yjBhApEiwAJcvNoUTTfxVKRNW8zNjmIUg6T_oqH18FUIPKHfuZ8SHk8SuwCOnUYgx9YhoCUykQAvD_BwE&gclsrc=aw.ds\",\n                \"primary\": \"https://developer.android.com/about?gclid=CjwKCAjw04yjBhApEiwAJcvNoUTTfxVKRNW8zNjmIUg6T_oqH18FUIPKHfuZ8SHk8SuwCOnUYgx9YhoCUykQAvD_BwE&gclsrc=aw.ds\"\n            },\n            \"ios\": {\n                \"fallback\": \"https://www.apple.com/eg/ios/ios-16/\",\n                \"primary\": \"https://www.apple.com/eg/ios/ios-16/\"\n            },\n            \"slug\": \"123456\",\n            \"web\": \"https://www.mongodb.com/docs/atlas/api/data-api/\"\n        },\n        {\n            \"_id\": \"64626671c2e5e8a9d8ee1c1e\",\n            \"android\": {\n                \"fallback\": \"example.azure.com\",\n                \"primary\": \"azure.com\"\n            },\n            \"ios\": {\n                \"fallback\": \"example.ios.com\",\n                \"primary\": \"ios.com\"\n            },\n            \"slug\": \"AF5R38\",\n            \"web\": \"https://www.google.com\"\n        },\n        {\n            \"_id\": \"64638aeefec2e8e929902566\",\n            \"android\": {\n                \"fallback\": \"https://developer.android.com/about?gclid=CjwKCAjw04yjBhApEiwAJcvNoUTTfxVKRNW8zNjmIUg6T_oqH18FUIPKHfuZ8SHk8SuwCOnUYgx9YhoCUykQAvD_BwE&gclsrc=aw.ds\",\n                \"primary\": \"https://developer.android.com/about?gclid=CjwKCAjw04yjBhApEiwAJcvNoUTTfxVKRNW8zNjmIUg6T_oqH18FUIPKHfuZ8SHk8SuwCOnUYgx9YhoCUykQAvD_BwE&gclsrc=aw.ds\"\n            },\n            \"ios\": {\n                \"fallback\": \"https://www.apple.com/eg/ios/ios-16/\",\n                \"primary\": \"https://www.apple.com/eg/ios/ios-16/\"\n            },\n            \"slug\": \"R15NJc\",\n            \"web\": \"https://www.mongodb.com/docs/atlas/api/data-api/\"\n        },\n        {\n            \"_id\": \"6463c1b5b2edb06237785f5a\",\n            \"android\": {\n                \"fallback\": \"https://chatbot.theb.ai/#/chat/1002\",\n                \"primary\": \"https://chatbot.theb.ai/#/chat/1002\"\n            },\n            \"ios\": {\n                \"fallback\": \"https://chatbot.theb.ai/#/chat/1002\",\n                \"primary\": \"https://chatbot.theb.ai/#/chat/1002\"\n            },\n            \"slug\": \"rBdCMc\",\n            \"web\": \"https://chatbot.theb.ai/#/chat/1002\"\n        },\n        {\n            \"_id\": \"6463c2f0d8fbd138dfd87370\",\n            \"android\": {\n                \"fallback\": \"https://education.github.com/pack/offers\",\n                \"primary\": \"https://education.github.com/pack/offers\"\n            },\n            \"ios\": {\n                \"fallback\": \"https://education.github.com/pack/offers\",\n                \"primary\": \"https://education.github.com/pack/offers\"\n            },\n            \"slug\": \"hxjYco\",\n            \"web\": \"https://education.github.com/pack/offers\"\n        },\n        {\n            \"_id\": \"6463c323ab0d491cddd1d1ed\",\n            \"android\": {\n                \"fallback\": \"https://www.facebook.com/\",\n                \"primary\": \"https://www.facebook.com/\"\n            },\n            \"ios\": {\n                \"fallback\": \"https://www.facebook.com/\",\n                \"primary\": \"https://www.facebook.com/\"\n            },\n            \"slug\": \"vsdS3o\",\n            \"web\": \"https://www.facebook.com/\"\n        },\n        {\n            \"_id\": \"6463c5314be992bc533888b1\",\n            \"android\": {\n                \"fallback\": \"https://stackoverflow.com/questions/14343812/redirecting-to-url-in-flask\",\n                \"primary\": \"https://stackoverflow.com/questions/14343812/redirecting-to-url-in-flask\"\n            },\n            \"ios\": {\n                \"fallback\": \"https://stackoverflow.com/questions/14343812/redirecting-to-url-in-flask\",\n                \"primary\": \"https://stackoverflow.com/questions/14343812/redirecting-to-url-in-flask\"\n            },\n            \"slug\": \"Nhrhhk\",\n            \"web\": \"https://stackoverflow.com/questions/14343812/redirecting-to-url-in-flask\"\n        },\n        {\n            \"_id\": \"6463c57e6ad483790a836307\",\n            \"android\": {\n                \"fallback\": \"https://medium.com/javarevisited/10-microservices-design-principles-every-developer-should-know-44f2f69e960f\",\n                \"primary\": \"https://medium.com/javarevisited/10-microservices-design-principles-every-developer-should-know-44f2f69e960f\"\n            },\n            \"ios\": {\n                \"fallback\": \"https://medium.com/javarevisited/10-microservices-design-principles-every-developer-should-know-44f2f69e960f\",\n                \"primary\": \"https://medium.com/javarevisited/10-microservices-design-principles-every-developer-should-know-44f2f69e960f\"\n            },\n            \"slug\": \"QtNHMI\",\n            \"web\": \"https://medium.com/javarevisited/10-microservices-design-principles-every-developer-should-know-44f2f69e960f\"\n        },\n        {\n            \"_id\": \"6463c7466ad483790a841762\",\n            \"android\": {\n                \"fallback\": \"https://music.youtube.com/watch?v=VJuot4Kn6K4\",\n                \"primary\": \"https://music.youtube.com/watch?v=VJuot4Kn6K4\"\n            },\n            \"ios\": {\n                \"fallback\": \"https://music.youtube.com/watch?v=VJuot4Kn6K4\",\n                \"primary\": \"https://music.youtube.com/watch?v=VJuot4Kn6K4\"\n            },\n            \"slug\": \"dR7itT\",\n            \"web\": \"https://music.youtube.com/watch?v=VJuot4Kn6K4\"\n        },\n        {\n            \"_id\": \"6463c76e4be992bc53396fb2\",\n            \"android\": {\n                \"fallback\": \"https://music.youtube.com/watch?v=VJuot4Kn6K4\",\n                \"primary\": \"https://music.youtube.com/watch?v=VJuot4Kn6K4\"\n            },\n            \"ios\": {\n                \"fallback\": \"https://music.youtube.com/watch?v=VJuot4Kn6K4\",\n                \"primary\": \"https://music.youtube.com/watch?v=VJuot4Kn6K4\"\n            },\n            \"slug\": \"U7oNgi\",\n            \"web\": \"https://music.youtube.com/watch?v=VJuot4Kn6K4\"\n        },\n        {\n            \"_id\": \"6463c7b2eb4f073b5dada175\",\n            \"android\": {\n                \"fallback\": \"https://music.youtube.com/watch?v=VJuot4Kn6K4\",\n                \"primary\": \"https://music.youtube.com/watch?v=VJuot4Kn6K4\"\n            },\n            \"ios\": {\n                \"fallback\": \"https://music.youtube.com/watch?v=VJuot4Kn6K4\",\n                \"primary\": \"https://music.youtube.com/watch?v=VJuot4Kn6K4\"\n            },\n            \"slug\": \"X78CrV\",\n            \"web\": \"https://music.youtube.com/watch?v=VJuot4Kn6K4\"\n        },\n        {\n            \"_id\": \"6463c8174be992bc5339ad26\",\n            \"android\": {\n                \"fallback\": \"https://music.youtube.com/watch?v=VJuot4Kn6K4\",\n                \"primary\": \"https://music.youtube.com/watch?v=VJuot4Kn6K4\"\n            },\n            \"ios\": {\n                \"fallback\": \"https://music.youtube.com/watch?v=VJuot4Kn6K4\",\n                \"primary\": \"https://music.youtube.com/watch?v=VJuot4Kn6K4\"\n            },\n            \"slug\": \"g77WyC\",\n            \"web\": \"https://music.youtube.com/watch?v=VJuot4Kn6K4\"\n        },\n        {\n            \"_id\": \"6463da59fec2e8e929afb468\",\n            \"android\": {\n                \"fallback\": \"https://music.youtube.com/watch?v=BwLr50ylEco\",\n                \"primary\": \"https://music.youtube.com/watch?v=BwLr50ylEco\"\n            },\n            \"ios\": {\n                \"fallback\": \"https://music.youtube.com/watch?v=BwLr50ylEco\",\n                \"primary\": \"https://music.youtube.com/watch?v=BwLr50ylEco\"\n            },\n            \"slug\": \"pXT4m1\",\n            \"web\": \"https://music.youtube.com/watch?v=BwLr50ylEco\"\n        },\n        {\n            \"_id\": \"6463dad1d8fbd138dfe1862a\",\n            \"android\": {\n                \"fallback\": \"https://www.facebook.com/watch/?ref=tab\",\n                \"primary\": \"https://www.facebook.com/watch/?ref=tab\"\n            },\n            \"ios\": {\n                \"fallback\": \"https://www.facebook.com/watch/?ref=tab\",\n                \"primary\": \"https://www.facebook.com/watch/?ref=tab\"\n            },\n            \"slug\": \"sVkrMa\",\n            \"web\": \"https://www.facebook.com/watch/?ref=tab\"\n        },\n        {\n            \"_id\": \"6463dd8144910f2a27516a49\",\n            \"android\": {\n                \"fallback\": \"https://www.facebook.com/watch/?ref=tab\",\n                \"primary\": \"https://www.facebook.com/watch/?ref=tab\"\n            },\n            \"ios\": {\n                \"fallback\": \"https://www.facebook.com/watch/?ref=tab\",\n                \"primary\": \"https://www.facebook.com/watch/?ref=tab\"\n            },\n            \"slug\": \"Oi2sxv\",\n            \"web\": \"https://www.facebook.com/watch/?ref=tab\"\n        },\n        {\n            \"_id\": \"6463ddd04be992bc5341c9e6\",\n            \"android\": {\n                \"fallback\": \"https://www.facebook.com/watch/?ref=tab\",\n                \"primary\": \"https://www.facebook.com/watch/?ref=tab\"\n            },\n            \"ios\": {\n                \"fallback\": \"https://www.facebook.com/watch/?ref=tab\",\n                \"primary\": \"https://www.facebook.com/watch/?ref=tab\"\n            },\n            \"slug\": \"NPAfTO\",\n            \"web\": \"https://www.facebook.com/watch/?ref=tab\"\n        },\n        {\n            \"_id\": \"6463de8e4be992bc534211df\",\n            \"android\": {\n                \"fallback\": \"https://cp-algorithms.com/\",\n                \"primary\": \"https://cp-algorithms.com/\"\n            },\n            \"ios\": {\n                \"fallback\": \"https://cp-algorithms.com/\",\n                \"primary\": \"https://cp-algorithms.com/\"\n            },\n            \"slug\": \"Wbc0oY\",\n            \"web\": \"https://cp-algorithms.com/\"\n        },\n        {\n            \"_id\": \"6463def34be992bc53423846\",\n            \"android\": {\n                \"fallback\": \"https://cp-algorithms.com/\",\n                \"primary\": \"https://cp-algorithms.com/\"\n            },\n            \"ios\": {\n                \"fallback\": \"https://cp-algorithms.com/\",\n                \"primary\": \"https://cp-algorithms.com/\"\n            },\n            \"slug\": \"xHdzog\",\n            \"web\": \"https://cp-algorithms.com/\"\n        },\n        {\n            \"_id\": \"6463fd0144910f2a275ba9df\",\n            \"android\": {\n                \"fallback\": \"https://music.youtube.com/watch?v=OzsofYxF4dA\",\n                \"primary\": \"https://music.youtube.com/watch?v=OzsofYxF4dA\"\n            },\n            \"ios\": {\n                \"fallback\": \"https://music.youtube.com/watch?v=OzsofYxF4dA\",\n                \"primary\": \"https://music.youtube.com/watch?v=OzsofYxF4dA\"\n            },\n            \"slug\": \"EpJUeM\",\n            \"web\": \"https://music.youtube.com/watch?v=OzsofYxF4dA\"\n        },\n        {\n            \"_id\": \"6463fd1fd8fbd138dfed038f\",\n            \"android\": {\n                \"fallback\": \"https://soundcloud.com/discover\",\n                \"primary\": \"https://soundcloud.com/discover\"\n            },\n            \"ios\": {\n                \"fallback\": \"https://soundcloud.com/discover\",\n                \"primary\": \"https://soundcloud.com/discover\"\n            },\n            \"slug\": \"2Yvj3J\",\n            \"web\": \"https://soundcloud.com/discover\"\n        }\n    ]\n}\n\n```"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/shortlinks",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"android\": {\n        \"fallback\": \"https://soundcloud.com/discover\",\n        \"primary\": \"https://soundcloud.com/discover\"\n    },\n    \"ios\": {\n        \"fallback\": \"https://soundcloud.com/discover\",\n        \"primary\": \"https://soundcloud.com/discover\"\n    },\n    \"web\": \"https://soundcloud.com/discover\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/shortlinks",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"shortlinks"
+					]
+				},
+				"description": "**Note That slug is auto generated**"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/shortlinks/tN0Znj",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{  \n    \"web\": \"https://android.soundcloud.com/discover\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/shortlinks/tN0Znj",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"shortlinks",
+						"tN0Znj"
+					]
+				},
+				"description": "**Requesting to change specific slug with web entry to another value and update our database**"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/shortlinks/tN0Znj",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/shortlinks/tN0Znj",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"shortlinks",
+						"tN0Znj"
+					]
+				},
+				"description": "**Now we can access the web link in frontend or any other service**\n\n``` json\n{    \"message\": \"https://android.soundcloud.com/discover\"}\n\n```"
+			},
+			"response": []
+		}
+	]
+}

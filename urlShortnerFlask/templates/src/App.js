@@ -1,11 +1,10 @@
 import './App.css';
 import React, { useState } from 'react';
 import './form.css'
-import './postFrom.js'
+
 
 function App() {
   const [inputValue, setInputValue] = useState('');
-
   const handleSubmit = (event) => {
     event.preventDefault();
 
@@ -20,13 +19,14 @@ function App() {
      
     }).then(response => {
       console.log(response);
-    });
+    })
   }
 
   const handleInputChange = (event) => {
     setInputValue(event.target.value);
   }
-
+  
+ 
   return (
     <form onSubmit={handleSubmit}>
       <label>
@@ -35,6 +35,7 @@ function App() {
       </label>
       <button type="submit">Shorten</button>
     </form>
+    
   );
 }
 
