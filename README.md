@@ -17,7 +17,7 @@
 | **put** /shortlinks/{slug} |                 **update document**                  |
 | **GET** /shortlinks/{slug} | **get specific shortlink (to be used in frontend )** |
 
-**you can find the actual API testing results from this link** : [https://documenter.getpostman.com/view/26760066/2s93kxcRxR](api)
+**you can find the actual API testing results from this link** : `https://documenter.getpostman.com/view/26760066/2s93kxcRxR`
 
 ###### 3- How to Run ? 
 
@@ -31,7 +31,7 @@
 
    `flask --app app run --debug`
 
-   Now we can ping our app on link : [http://127.0.0.1:5000]()
+   Now we can ping our app on link : `http://127.0.0.1:5000`
 
 3. **Run React JS front-end **
 
@@ -39,7 +39,7 @@
 
    `npm start`
 
-   Now we can see our app is up and running on link : [http://localhost:3000/]()
+   Now we can see our app is up and running on link : `http://localhost:3000/`
 
 ![](/assets/scn.png)
 
