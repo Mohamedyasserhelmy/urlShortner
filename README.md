@@ -41,7 +41,7 @@
 
    Now we can see our app is up and running on link : [ http://localhost:3000/]()
 
-![](/assets/Screenshot from 2023-05-17 02-41-57.png)
+![](/assets/scn.png)
 
 **As we can see we can Enter the URL we want to shorten using this form** 
 
